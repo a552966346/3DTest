@@ -5,6 +5,9 @@
 				var all = document.getElementById("limiande");
 				var small = document.getElementsByClassName("sif");
 				var big = document.getElementsByClassName("bif");
+				var body = document.getElementById("mybody");
+			
+				
 				console.log(big);
 				//排列大小盒子的前后左右四个面
 				for(var i = 0; i<big.length-2;i++){
@@ -26,7 +29,7 @@
 				//让总体盒子选装
 				var rota = -60;
 				var active =  function(){
-					if (rota <= 360) {
+					if (rota < 360) {
 						rota += 0.1;
 						all.style.transform = "rotateX("+rota+"deg) rotateY("+rota+"deg)";
 					
