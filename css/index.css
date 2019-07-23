@@ -1,13 +1,17 @@
+			html{
+				height: 657px;
+			}
 			body{
 				background-image: url(../img/timg.jpg);		
-				background-size: 100%;
+				background-size: 100% 100%;
 				background-repeat: no-repeat;
 			}
 			#waimiande{
 				width: 650px;
 				height: 200px;
 				/*改变左右上下,图片方块移动*/
-				margin: 150px 360px;
+				margin: 0 auto;
+				margin-top:230px;
 				position: relative;
 			}
 			#limiande{
